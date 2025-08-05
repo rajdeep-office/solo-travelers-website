@@ -1,0 +1,55 @@
+body {
+    background-color: #ffcc00; /* Light orange background */
+    color: #333; /* Dark text for contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9900; /* Darker orange for header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* White text for headings */
+}
+
+nav {
+    background-color: #ff6600; /* Bright orange for navigation */
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #ff9900; /* Orange border for cards */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #ff9900; /* Darker orange for footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
